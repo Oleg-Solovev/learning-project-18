@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(223, 248, 240);
+}
+
+img {
+    max-width: calc(100% / 3 - 20px);
+}
+
+.app {
+    max-width: 500px;
+    padding: 40px 15px;
+    margin: 0 auto;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 500px;
+    height: 20px;
+    background-color: rgb(35, 138, 104);
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+}
